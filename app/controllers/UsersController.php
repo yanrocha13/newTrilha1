@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Controllers;
+namespace App\controllers;
 
 use Illuminate\Support\Facades\Crypt;
 use Psr\Http\Message\ResponseInterface;
