@@ -1,0 +1,24 @@
+{
+    "name": "root/trilha1",
+    "description": "trabalho para trilha1",
+    "authors": [
+        {
+            "name": "yanRocha",
+            "email": "yan.rocha@webjump.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.3",
+        "illuminate/database": "^6.10",
+        "php-di/php-di": "^6.2",
+        "monolog/monolog": "^2.1",
+        "twig/twig": "^3.0",
+        "pecee/simple-router": "4.2.0.6"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/",
+                  "Controllers\\" : "app/controllers/",
+                  "Models\\" : "app/models/"
+        }
+    }
+}
